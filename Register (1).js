@@ -103,7 +103,7 @@ registerForm.addEventListener("submit", function (event) {
   // If valid, simulate submission
   if (isValid) {
     alert(`Registration Successful as ${currentRole.toUpperCase()}! Redirecting to login...`);
-    window.location.href = "../login/login.html";
+    window.location.href = "https://oogwayhsha.github.io/index.html";
   }
 });
 
