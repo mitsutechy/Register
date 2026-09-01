@@ -89,6 +89,9 @@ registerForm.addEventListener("submit", function (event) {
   if (password === "") {
     document.getElementById("regPasswordError").textContent = "Password is required.";
     isValid = false;
+  } else if (password.length < 8) {
+    document.getElementById("regPasswordError").textContent = "Password must be at least 8 characters long.";
+    isValid = false;
   }
 
   // Validate Confirm Password
